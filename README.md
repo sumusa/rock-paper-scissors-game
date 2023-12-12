@@ -22,3 +22,5 @@ This is a simple Rock, Paper, Scissors game implemented using HTML, CSS, and Jav
 - HTML
 - CSS
 - JavaScript
+
+Please refer to https://sumusa.github.io/rock-paper-scissors-game to play the game.
