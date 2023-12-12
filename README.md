@@ -4,7 +4,7 @@ This is a simple Rock, Paper, Scissors game implemented using HTML, CSS, and Jav
 
 ## How to Play
 
-- Open the index.html file in your web browser.
+- Open the `index.html` file in your web browser.
 - Enter your name and click the "Start Game" button.
 - Choose your move (Rock, Paper, or Scissors) by clicking the corresponding button.
 - The game will display the result of each round and keep track of the score.
