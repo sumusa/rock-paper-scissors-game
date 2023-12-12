@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="styles.css">
     <script src="rochambeau.js" defer></script>
 </head>
 <body>
+    <div id="game-container">
+        <h1>My Rochambeau Game</h1>
+        
+        <div id="name-input">
+          <label for="player-name">Enter your name: </label>
+          <input type="text" id="player-name">
+          <div id="start-game">
+            <button id="start-button" onclick="startGame()">Start Game</button>
+          </div>
+        </div>
     
+        <div id="choices-container" style="display:none;">
+          <button class="choice-button" onclick="playRound('rock')">Rock</button>
+          <button class="choice-button" onclick="playRound('paper')">Paper</button>
+          <button class="choice-button" onclick="playRound('scissors')">Scissors</button>
+        </div>
+    
+        <div id="result"></div>
+        <div id="score">Player: 0 - Computer: 0</div>
+
+        <div id="winner-message" style="display:none;">
+            <h2 id="winner-text"></h2>
+            <button class="play-again" onclick="resetGame()">Play Again</button>
+        </div>
+    </div>
 </body>
 </html>
