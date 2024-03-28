@@ -2,6 +2,8 @@
 
 This is a simple Rock, Paper, Scissors game implemented using HTML, CSS, and JavaScript. The game allows the player to enter their name, play rounds against the computer, and announces the winner once either the player or the computer reaches 5 points.
 
+![Rock paper scissors](rock-paper.png)
+
 ## How to Play
 
 - Open the `index.html` file in your web browser.
